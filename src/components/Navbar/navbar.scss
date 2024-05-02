@@ -1,0 +1,29 @@
+.Navbar{
+  height: 100px;
+  .Wrapper{
+    max-width: 1366px;
+    margin: auto ;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    .Socials{
+      display: flex;
+      gap: 20px;
+      .linkedin{
+        height: auto;
+        width: 36px;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  span{
+    font-weight: bold;
+    margin:0px 85px;
+  }
+
+
+}
+
